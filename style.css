@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(251,206,177,1) 50%, rgba(252,176,69,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: 600;
+    font-size: 1.09rem;
+}
+
+.calculator {
+    background: linear-gradient( 110.3deg,  rgba(73,93,109,1) 4.3%, rgba(49,55,82,1) 96.7% );
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.button {
+    background: linear-gradient(177.9deg, rgb(58, 62, 88) 3.6%, rgb(119, 127, 148) 105.8%);
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background: rgb(31, 31, 31);
+}
+
+.null {
+    width: 108px;
+}
+
+.equals {
+    height: 108px;
+}
+
+.clear {
+    width: 108px;
+}
+
+.screen {
+    text-align: end;
+    margin-left: 5px;
+    background-color: aliceblue;
+    width: 203px;
+    padding: 10px;
+    border-radius: 8px 8px 5px 5px;
+    margin-bottom: 10px;
+}
+
+.previousNumber, 
+.currentNumber {
+    height: 21px;
+}
